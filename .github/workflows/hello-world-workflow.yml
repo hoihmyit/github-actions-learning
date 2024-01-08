@@ -1,0 +1,13 @@
+name: Hello World Run
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  Hello-World-run:
+    runs-on: ubuntu-latest
+    steps:
+    - run: echo "Hello World!"
