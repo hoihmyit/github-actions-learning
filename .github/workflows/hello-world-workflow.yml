@@ -2,9 +2,9 @@ name: Hello World Run
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "helloworld" ]
   pull_request:
-    branches: [ "main" ]
+    branches: [ "helloworld" ]
 
 jobs:
   Hello-World-run:
